@@ -18,8 +18,8 @@ html, body {
 /* Navigation Bar styling */
 
 .nav-list {
-    background-color: #0f0e17;
-    color: #fffffe;
+    background-color: #fffffe; 
+    color: #0f0e17;
     font-weight: bolder;
     list-style: none;
     display: flex;
@@ -32,7 +32,7 @@ html, body {
 
 .nav-list a {
     text-decoration: none;
-    color: #fffffe;
+    color: #0f0e17;
 }
 
 /* Styling for home page */
@@ -76,5 +76,43 @@ html, body {
   border-color: #ff8906;
   color: #ff8906;
   fill: #ff8906;
+}
+
+/* Styling for Catering Page */
+
+.catering-header {
+    font-size: 2.5rem;
+    font-weight: bolder;
+    text-align: center;
+    padding-block: 2rem;
+    background-color: #0f0e17;
+    color: #fffffe;
+}
+
+.catering-section {
+    display: flex;
+    justify-content: center;
+    margin-block: 6rem;
+    gap: 10rem;
+}
+
+.catering-information {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 10rem;
+}
+
+.catering-information p {
+    font-size: 1.2rem;
+    line-height: 1.7;
+}
+
+.catering-information h3 {
+    font-size: 1.7rem;
+}
+
+.catering-photo {
+    margin-right: 10rem;
 }
 
