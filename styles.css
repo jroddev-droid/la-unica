@@ -1,0 +1,80 @@
+
+:root {
+    --main-clr: #0f0e17; 
+    --secondary-clr: #fffffe;
+    --subheadline-clr:#2e2f3e;;
+    --paragraph-clr: #a7a9be;
+    --btn-clr: #ff8906;
+    --tertiary-clr:
+}
+
+html, body {
+    font-family: 'Cantarell', sans-serif;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+/* Navigation Bar styling */
+
+.nav-list {
+    background-color: #0f0e17;
+    color: #fffffe;
+    font-weight: bolder;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    padding-block: 2rem;
+    gap: 6rem;
+    margin: 0;
+}
+
+.nav-list a {
+    text-decoration: none;
+    color: #fffffe;
+}
+
+/* Styling for home page */
+
+.homepage-body {
+    background-image: url(homepage-photo.jpg);
+    background-size: cover;
+    background-position: center;
+    color: #fffffe;
+}
+
+.homepage-section {
+    height: 90%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+/* Styling Home Page Button */
+#homepage-btn {
+    background-color: transparent;
+    color: #fffffe;
+    padding-block: 1rem;
+    padding-inline: 3rem;
+    font-family: 'Cantarell', sans-serif;
+    font-size: larger;
+}
+
+#homepage-btn:focus {
+  color: #fffffe;
+}
+
+#homepage-btn:hover {
+  border-color: #ff8906;
+  color: #ff8906;
+  fill: #ff8906;
+}
+
+#homepage-button:active {
+  border-color: #ff8906;
+  color: #ff8906;
+  fill: #ff8906;
+}
+
