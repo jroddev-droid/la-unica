@@ -116,3 +116,19 @@ html, body {
     margin-right: 10rem;
 }
 
+.catering-guidelines {
+    background: #ff8e3c;
+    color: #fffffe;
+    padding-block: 4rem;
+}
+
+.catering-content {
+    width: 50%;
+    margin: auto;
+    padding-block: 1rem;
+    padding-inline: 4rem;
+    text-align: center;
+    background-color: #fffffe;
+    color: #0f0e17;
+}
+
